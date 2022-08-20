@@ -1,0 +1,17 @@
+@import "../styles/global.scss";
+
+.App {
+    @include flex();
+    height: 100vh;
+}
+
+.App {
+    background-color: $gray;
+
+    &__cards div {
+        &:first-child {
+            background-color: $bright-orange;
+            border-radius: 10px 0 0 10px;
+        }
+    }
+}

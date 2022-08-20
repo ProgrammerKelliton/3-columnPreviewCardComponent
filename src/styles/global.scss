@@ -1,0 +1,11 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$bright-orange: #e38826;
+$dark-cyan: #006970;
+$very-darkCyan: #004241;
+$text-color: #ffffffbf;
+$gray: #f2f2f2;
