@@ -3,6 +3,10 @@
 .App {
     @include flex();
     height: 100vh;
+
+    &__cards {
+        @include flex();
+    }
 }
 
 .App {
@@ -13,5 +17,15 @@
             background-color: $bright-orange;
             border-radius: 10px 0 0 10px;
         }
+        &:nth-child(2) {
+            background-color: $dark-cyan;
+        }
+        &:nth-child(3) {
+            background-color: $very-darkCyan;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+    &__cards {
+        width: 90vw;
     }
 }

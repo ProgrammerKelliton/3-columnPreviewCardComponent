@@ -1,8 +1,35 @@
-// @import "../../styles/global.scss";
+@import "../../styles/global.scss";
 
 .Card {
-    gap: 10%;
-    padding: 10%;
-    width: 300px;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+
+    padding: 5%;
+    width: max(250px, 10%);
+
+    &__desc {
+        width: 80%;
+    }
+    &__button {
+        padding: 15px 20px;
+    }
+}
+.Card {
+    &__title {
+        text-transform: uppercase;
+    }
+    &__desc {
+        color: $text-color;
+    }
+    &__title,
+    &__button {
+        color: $gray;
+    }
+    &__button {
+        border: 2px solid $gray;
+        border-radius: 30px;
+        background-color: transparent;
+    }
 }
