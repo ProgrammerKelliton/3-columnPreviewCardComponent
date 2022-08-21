@@ -29,3 +29,28 @@
         width: 90vw;
     }
 }
+
+@media (max-width: 610px) {
+    .App {
+        height: auto;
+        padding: 10vh;
+
+        &__cards {
+            flex-direction: column;
+
+            div {
+                &:first-child {
+                    background-color: $bright-orange;
+                    border-radius: 10px 10px 0 0;
+                }
+                &:nth-child(2) {
+                    background-color: $dark-cyan;
+                }
+                &:nth-child(3) {
+                    background-color: $very-darkCyan;
+                    border-radius: 0 0 10px 10px;
+                }
+            }
+        }
+    }
+}

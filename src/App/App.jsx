@@ -1,9 +1,9 @@
 import "./App.scss";
 import Card from "../component/card";
 
-import IconCard2 from "../../public/icons/icon-luxury.svg";
 import IconCard1 from "../../public/icons/icon-sedans.svg";
-import IconCard3 from "../../public/icons/icon-suvs.svg";
+import IconCard2 from "../../public/icons/icon-suvs.svg";
+import IconCard3 from "../../public/icons/icon-luxury.svg";
 
 function App() {
     return (
